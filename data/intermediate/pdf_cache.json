@@ -1,0 +1,44 @@
+{
+  "a1a05059-d870-403a-97fc-04d48d634c32": {
+    "retries": 3,
+    "url": "https://kad.arbitr.ru/Card/a1a05059-d870-403a-97fc-04d48d634c32",
+    "last_attempt": "2026-05-24 11:55:30",
+    "error": "no_content"
+  },
+  "29c5e40c-0257-420c-8b09-b54249cd5baf": {
+    "retries": 3,
+    "url": "https://kad.arbitr.ru/Card/29c5e40c-0257-420c-8b09-b54249cd5baf",
+    "last_attempt": "2026-05-24 12:00:45",
+    "error": "no_content"
+  },
+  "0bbbae39-f0f5-4eef-9c2a-5e0cb2a38075": {
+    "retries": 3,
+    "url": "https://kad.arbitr.ru/Card/0bbbae39-f0f5-4eef-9c2a-5e0cb2a38075",
+    "last_attempt": "2026-05-24 12:04:00",
+    "error": "no_content"
+  },
+  "7385eb2f-ec66-46f5-a892-54348eb8f822": {
+    "retries": 3,
+    "url": "https://kad.arbitr.ru/Card/7385eb2f-ec66-46f5-a892-54348eb8f822",
+    "last_attempt": "2026-05-24 12:07:30",
+    "error": "no_content"
+  },
+  "9ad84b1e-187b-4f0a-be22-2b4fb29b8043": {
+    "retries": 2,
+    "url": "https://kad.arbitr.ru/Card/9ad84b1e-187b-4f0a-be22-2b4fb29b8043",
+    "last_attempt": "2026-05-24 13:10:12",
+    "error": "no_content"
+  },
+  "8bfbd2c9-6f08-43fc-bd5d-051ff1de1e95": {
+    "retries": 1,
+    "url": "https://kad.arbitr.ru/Card/8bfbd2c9-6f08-43fc-bd5d-051ff1de1e95",
+    "last_attempt": "2026-05-24 13:21:44",
+    "error": "download_timeout"
+  },
+  "F0CC0DE3-6098-4AEB-B46A-66FB645F8BE5": {
+    "retries": 1,
+    "url": "https://kad.arbitr.ru/Card/F0CC0DE3-6098-4AEB-B46A-66FB645F8BE5",
+    "last_attempt": "2026-05-24 13:31:19",
+    "error": "download_timeout"
+  }
+}
