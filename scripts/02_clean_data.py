@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
 
-input_file = 'data/source/companies_data.csv'
-output_file = 'data/intermediate/cleaned_data.csv'
+input_file = 'data/intermediate/companies_data_with_text.csv'
+output_file = 'data/intermediate/cleaned_data_with_text.csv'
+protected= ['first_case_pdf_text']
 
 def replace_empty_to_nan(val):
   if pd.isna(val):
@@ -31,7 +32,8 @@ for col in df.columns:
     df[f'has_{col}_data'] = df[col].notna().astype(int)
 
 # Удаление пустых столбцов
-pop_columns = [col for col in df.columns if df[col].isna().sum()/len(df) > 0.99]
+
+pop_columns = [col for col in df.columns if col not in protected and df[col].isna().sum()/len(df) > 0.99]
 df.drop(pop_columns, axis=1, inplace=True)
 
 
