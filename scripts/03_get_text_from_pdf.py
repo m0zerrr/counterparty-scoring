@@ -1,6 +1,7 @@
 import csv
 import time
 import os
+import sys
 import random
 import json
 from pathlib import Path
@@ -174,6 +175,14 @@ def main():
     print("Пауза между делами: 2-5 минут")
     print("=" * 60)
     
+    max_int = sys.maxsize
+    while True:
+        try:
+            csv.field_size_limit(max_int)
+            break
+        except OverflowError:
+            max_int = int(max_int/10)
+
     # Пытаемся загрузить уже обработанный файл
     if os.path.exists(OUTPUT_CSV):
         csv_to_read = OUTPUT_CSV
